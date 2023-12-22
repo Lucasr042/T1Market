@@ -20,6 +20,10 @@ header{
     position: sticky;
     top: 0;
 }
+
+h1 {
+    color: red;
+}
 header h1 {
     color: red;
     font-size: 45px;
@@ -112,13 +116,102 @@ h3 {
 
 }
 
+/*!-----NOSOTROS----*/
+
 .quienessomos div img{
-    width: 280px;
+    width: 38vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
 
 }
+
+.quienessomos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quienessomos h1 {
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+
+.quienessomos div {
+    display: flex;
+    justify-content: center;
+}
+
+.mision { display: flex;
+justify-content: center;
+}
+
+
+.pmision {
+    width: 70vh;
+}
+
+.imgmision img {
+    width: 40vh;
+
+}
+
+.respaldo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imgrespaldo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.imgrespaldo img {
+    width: 30vh;
+    display: flex;
+}
+
+/*!-----TRABAJACONNOSOTROS----*/
+
+.ambiente {
+    display: flex;
+    flex-direction: row;
+}
+
+.ambiente img {
+    width: 15vh;
+}
+
+.acceso {
+    display: flex;
+    flex-direction: row;
+}
+.acceso img {
+    width: 15vh;
+}
+
+.laboral {
+    display: flex;
+    flex-direction: row;
+}
+
+.laboral img {
+    width: 15vh;
+}
+
+.capacitacion{
+    display: flex;
+    flex-direction: row;
+}
+.capacitacion img {
+    width: 15vh;
+}
+
+
+
+
 
 
 
